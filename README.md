@@ -88,7 +88,7 @@ options:
   -M        start the program muted
   -h        show help
   -l        list available openAL audio devices
-  -p PATH   load .wav files from directory PATH
+  -p PATH   load .ogg files from directory PATH
   -s WIDTH  set stereo width [0..100]
   -v        increase verbosity / debugging
   
