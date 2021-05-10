@@ -49,6 +49,12 @@ require special permissions for hecs to open the devices, though. Build with
 $ make libinput=1
 ```
 
+### Keep it Running
+sudo cp -r hecs /usr/bin/
+Copy ogg folder to your home directory
+Use Application launchers like rofi, dmenu to run hecs directly
+
+
 ### MacOS
 
 I've heard rumours that hecs also runs on MacOS. I've been told that
