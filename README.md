@@ -1,10 +1,6 @@
 Hecs ( Fork from Bucklesprings)
 =====================================
 
-
-::From hecs::
-Copyright 2016 Ico Doornekamp
-
 This project is a fork of the famous project bucklesprings :). I thought of using mechanical
 keyboard's sound instead of the old IBM keyboards. The sound used is from Cherry Mx Blue ABS Keyboard.
 
