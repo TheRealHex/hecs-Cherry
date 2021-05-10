@@ -50,10 +50,11 @@ $ make libinput=1
 ```
 
 ### Keep it Running
-sudo cp -r hecs /usr/bin/
-Copy ogg folder to your home directory
-Use Application launchers like rofi, dmenu to run hecs directly
 
+```
+$ sudo cp -r hecs /usr/bin/
+```
+Copy ogg folder to your home directory and use application launchers like : rofi, dmenu to run hecs directly.
 
 ### MacOS
 
