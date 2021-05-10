@@ -1,0 +1,11 @@
+[Desktop Entry]
+
+Type=Application
+Name=hecs
+Comment=Mechanical keyboard sound
+Exec=hecs -f
+Icon=input-keyboard
+StartupNotify=false
+Terminal=false
+Hidden=false
+
