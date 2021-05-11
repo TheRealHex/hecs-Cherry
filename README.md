@@ -52,7 +52,7 @@ $ make libinput=1
 ### Keep it Running
 
 ```
-$ sudo cp -r hecs /usr/bin/
+$ sudo cp hecs /usr/bin/
 ```
 Copy ogg folder to your home directory and use application launchers like : rofi, dmenu to run hecs directly.
 
