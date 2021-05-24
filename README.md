@@ -1,8 +1,8 @@
 Hecs ( Mechanical Keyboard Sound As You Type )
 =====================================
 
-This project is a fork of the famous project bucklesprings :). 
-Bucklesprings : https://github.com/zevv/bucklespring
+This project is a fork of the famous project Bucklespring : https://github.com/zevv/bucklespring
+
 I thought of using mechanical keyboard's sound instead of the old IBM keyboards. The sound used is from Cherry Mx Blue ABS Keyboard.
 
 To temporarily silence hecs, for example to enter secrets, press
