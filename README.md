@@ -57,7 +57,7 @@ $ sudo cp hecs /usr/bin/
 ```
 Copy ogg folder to your home directory and use application launchers like : rofi, dmenu to run hecs directly.
 
-<img src="https://github.com/TheRealHex/smoofx/blob/main/snaps/1.gif">
+<img src="https://github.com/TheRealHex/Hecs/blob/master/snaps/1.gif">
 
 ### MacOS
 
