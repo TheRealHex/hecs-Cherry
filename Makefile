@@ -3,7 +3,7 @@ NAME   	:= hecs
 SRC 	:= main.c
 VERSION	:= 1.4.0
 
-PATH_AUDIO ?= "./ogg"
+PATH_AUDIO ?= "`pwd`/ogg"
 
 CFLAGS	?= -O3 -g
 LDFLAGS ?= -g
