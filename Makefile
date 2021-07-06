@@ -73,3 +73,6 @@ install:
 	mkdir /usr/share/hecs/
 	cp hecs /usr/bin/
 	cp -r ./ogg /usr/share/hecs/
+
+uninstall:
+	rm -rf /usr/bin/hecs /usr/share/hecs/
