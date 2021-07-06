@@ -3,7 +3,7 @@ NAME   	:= hecs
 SRC 	:= main.c
 VERSION	:= 1.4.0
 
-PATH_AUDIO ?= "./ogg"
+PATH_AUDIO ?= "/usr/share/hecs/ogg"
 
 CFLAGS	?= -O3 -g
 LDFLAGS ?= -g
@@ -67,3 +67,9 @@ clean:
 
 strip: $(BIN)
 	$(STRIP) $(BIN)
+
+install:
+	rm -rf /usr/bin/hecs /usr/share/hecs
+	mkdir /usr/share/hecs/
+	cp hecs /usr/bin/
+	cp -r ./ogg /usr/share/hecs/
