@@ -35,10 +35,10 @@ $ sudo pacman -S openal alure libxtst
 $ sudo dnf install gcc openal-soft-devel alure-devel libX11-devel libXtst-devel
 ```
 
-#### Building
+#### Installation
 ```
-$ make
-$ ./hecs
+$ sudo make install
+
 ```
 
 The default Linux build requires X11 for grabbing events. If you want to use
@@ -53,9 +53,10 @@ $ make libinput=1
 ### Keep it Running
 
 ```
-$ sudo cp hecs /usr/bin/
+$Run from your app launcher like : dmenu, rofi 
+$Or in terminal as : hecs &
+
 ```
-Copy ogg folder to your home directory and use application launchers like : rofi, dmenu to run hecs directly.
 
 <img src="https://github.com/TheRealHex/Hecs/blob/master/snaps/1.gif">
 
