@@ -37,6 +37,7 @@ $ sudo dnf install gcc openal-soft-devel alure-devel libX11-devel libXtst-devel
 
 #### Installation
 ```
+$ make
 $ sudo make install
 ```
 
