@@ -52,8 +52,9 @@ $ make libinput=1
 ### Keep it Running
 
 ```
-$Run from your app launcher like : dmenu, rofi 
-$Or in terminal as : hecs &
+Run from
+	App launcher : dmenu, rofi 
+	Terminal : hecs &
 ```
 
 <img src="https://github.com/TheRealHex/Hecs/blob/master/snaps/1.gif">
@@ -67,8 +68,7 @@ the following should do:
 $ brew install alure pkg-config
 $ git clone https://github.com/TheRealHex/hecs.git && cd hecs
 $ sed -i '' 's/-Wall -Werror/-Wall/' Makefile
-$ make
-$ ./hecs
+$ sudo make install
 ```
 
 Note that you need superuser privileges to create the event tap on Mac OS X.
@@ -76,7 +76,7 @@ Also give your terminal Accessibility rights: system preferences -> security -> 
 
 If you want to use hecs while doing normal work, add an & behind the command.
 ```
-$ sudo ./hecs &
+$ hecs &
 ```
 
 ### Windows
@@ -102,6 +102,11 @@ options:
   -v        increase verbosity / debugging
   
 ````
+#### Uninstallation
+
+```
+$ sudo make uninstall
+```
 
 OpenAL notes
 ------------
