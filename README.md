@@ -138,3 +138,4 @@ properly tuning OpenAL for Hecs.
  ````
  allow-moves = true
  ````
+ <img src='https://github.com/TheRealHex/Hecs/blob/master/img/cherry-mx-blue.jpg'>
