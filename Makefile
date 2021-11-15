@@ -69,6 +69,7 @@ strip: $(BIN)
 	$(STRIP) $(BIN)
 
 install:
+	make
 	mkdir -p /usr/share/hecs/
 	cp hecs /usr/bin/
 	cp -r ./ogg /usr/share/hecs/
