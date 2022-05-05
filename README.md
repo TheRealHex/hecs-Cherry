@@ -67,7 +67,7 @@ the following should do:
 
 ```
 $ brew install alure pkg-config
-$ git clone https://github.com/TheRealHex/hecs.git && cd hecs
+$ git clone https://github.com/TheRealHex/hecs-Cherry.git && cd hecs
 $ sed -i '' 's/-Wall -Werror/-Wall/' Makefile
 $ sudo make install
 ```
